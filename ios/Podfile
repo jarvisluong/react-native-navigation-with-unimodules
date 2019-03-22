@@ -29,6 +29,8 @@ target 'testunimodules' do
 
   use_unimodules!
 
+  pod 'ReactNativeNavigation', :path => '../node_modules/react-native-navigation/ReactNativeNavigation.podspec'
+
   target 'testunimodulesTests' do
     inherit! :search_paths
   end
